@@ -22,5 +22,11 @@
                 }
             }
         }
+        .current-page{
+            a{
+                color: $primary-color;
+                font-weight: 700;
+            }
+        }
     }
 }

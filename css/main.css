@@ -68,6 +68,10 @@ footer .copy, .about-footer .copy {
   color: rgb(135, 107, 154);
   font-size: 1.7rem;
 }
+.main-header .nav .current-page a {
+  color: rgb(135, 107, 154);
+  font-weight: 700;
+}
 
 .about-container {
   height: 100vh;
