@@ -72,7 +72,7 @@ footer .copy, .about-footer .copy {
 .about-container {
   height: 100vh;
   color: white;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(./../../img/pexels-photo-2387793.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(./../img/pexels-photo-2387793.jpg);
   background-position: center center;
   background-size: cover;
 }
@@ -146,7 +146,7 @@ footer .copy, .about-footer .copy {
 
 .container {
   height: 100vh;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(./../../img/pexels-photo-370717.jpg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(./../img/pexels-photo-370717.jpg);
   background-position: center center;
   background-size: cover;
 }
@@ -166,7 +166,7 @@ footer .copy, .about-footer .copy {
 
 .project-container {
   height: 100vh;
-  background-image: url(./../../img/pexels-photo-3473569.webp);
+  background-image: url(./../img/pexels-photo-3473569.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
