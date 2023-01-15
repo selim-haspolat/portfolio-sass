@@ -1,0 +1,31 @@
+.project-container{
+    height: 100vh;
+    background-image: url(./../../img/pexels-photo-3473569.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.frame{
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    iframe{
+        background-color: white;
+        width: 60%;
+        height: 70%;
+        border: none;
+        border-radius: 10px;
+    }
+    .pages-link{
+        a{
+            color: rgb(195, 195, 195);
+            text-decoration: none;
+            margin: 0 .5rem;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+footer{
+    height: 7vh;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .icons{
+        font-size: 1.7rem;
+        .fa-github{
+            transition: all ,.5s;
+            &:hover{
+                @include hover(rgb(82, 41, 122),1.7rem);
+            }
+            margin-left:1.5rem;
+        }
+        .fa-linkedin{
+            transition: all ,.5s;
+            &:hover{
+                @include hover(#0B5FBB,1.7rem)
+            }
+            margin-left:.5rem;
+        }
+    }
+    .copy{
+        margin-right: 1.5rem;
+    }
+}
+
+.about-footer{
+    @extend footer;
+    justify-content: center;
+    gap: 2rem;
+}
